@@ -22,9 +22,14 @@
   background-color: white;
 }
 
-.link{
+.link {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
+}
+
+.link > a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .spacer {
