@@ -1,9 +1,17 @@
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Arimo|Work+Sans');
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 5px 15px 0px 15px;
+}
 
-body {
-  margin: 0;
-  min-width: 320px;
+.title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu, .mat-icon-button {
+  width: 20px;
 }
 
 

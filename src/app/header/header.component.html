@@ -1,0 +1,18 @@
+<div class="header">
+  <div class="title mat-headline">
+    <span>Alex Hwang</span>
+    <!-- <span>Web Developer</span> -->
+  </div>
+  <div class="menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon class="menu-icon">more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item
+      (click)="selectProject(i)"
+      *ngFor="let prj of projects; let i = index">
+        {{prj.name}}
+      </button>
+    </mat-menu>
+  </div>
+</div>

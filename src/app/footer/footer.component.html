@@ -1,0 +1,32 @@
+<div class="footer-wrapper mat-typography slideUp" *ngIf="!isOpen">
+  <div class="button">
+    <button mat-mini-fab
+    (click)="toggleMore()">
+      more
+    </button>
+  </div>
+</div>
+
+<div class="footer-wrapper mat-typography" *ngIf="isOpen">
+  <div class="footer slideUp">
+    <div class="link">
+      <span>GitHub</span>
+    </div>
+    <div class="link">
+      <span>LinkedIn</span>
+    </div>
+    <div class="link">
+      <span>Email</span>
+    </div>
+  </div>
+  <div class="button-covered">
+    <button mat-mini-fab
+    (click)="toggleMore()">
+      hide
+    </button>
+  </div>
+</div>
+
+<div class="spacer">
+
+</div>
